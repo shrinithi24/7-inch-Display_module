@@ -1,4 +1,4 @@
-# Display_protosem
+# 7 inch DISPLAY WITH A CUSTOMIZED WEBPAGE.
   This project is done to display the happenings inside a classroom/workspace for to the view of trespassers willing to know the sum up of the whole happening. Here,we use a 7 inch display powered up by raspberry Pi 3 and a website showcasing the profiles and happenings.
  ![alt-text](https://github.com/shrinithi24/Display_protosem/blob/master/Pi_display(1).jpg)
 ## Components Used
