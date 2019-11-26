@@ -19,6 +19,7 @@
 ### Code for the Web app   
    Given below is a step by step process to create a dynamic website for displaying the top scorers in a leader board via data mined from google sheets and running an in host server.
 ## HOME PAGE:
+  ![alt-text](https://github.com/shrinithi24/7-inch-Display_module/blob/master/1.PNG?raw=true)
         
         
 1.	Create a HTML file for the homepage with the required buttons. For example: LEADERBOARD, INNOVATION CONCEPTS, NEWS, etc. 
@@ -35,6 +36,8 @@
 4.	Now, you have a homepage to navigate to different segments of the website. The html codes are present in the “templates” folder above. For the CSS files, open the “static” folder.
 
 ### Auto updation of leaderboard
+
+  ![alt-text](https://github.com/shrinithi24/7-inch-Display_module/blob/master/2.PNG?raw=true)
 
 1.	Create a table for displaying the names of the top scorers in the html code:
 <table style="width:100%" class="table table bordered table-striped" id="testTable">
@@ -53,6 +56,9 @@ https://www.twilio.com/blog/2017/02/an-easy-way-to-read-and-write-to-a-google-sp
 3.	Again, add CSS styles to the leader board.
 
 ### SLIDER IN HTML:
+        
+   ![alt-text](https://github.com/shrinithi24/7-inch-Display_module/blob/master/3.PNG?raw=true)
+
 1.	To have a slideshow of images in your dashboard, you can use this java script code to display multiple pictures with play, pause, previous and next options:
 
            var imgNumber = 0;
@@ -119,16 +125,16 @@ https://docs.djangoproject.com/en/2.2/intro/tutorial01/
 ### ALTERNATE HOSTING USING Java Script code:
 1.	If you are not using Django, you can run the code below in the terminal using node <name>.js command:
   
-       var connect = require('connect');
-       var serveStatic = require('serve-static');
-       connect().use(serveStatic(__dirname)).listen(3000, function(){
-       console.log('Server running on 3000...');
-      });
+         var connect = require('connect');
+         var serveStatic = require('serve-static');
+         connect().use(serveStatic(__dirname)).listen(3000, function(){
+         console.log('Server running on 3000...');
+         });
 
 2.	Now your website is locally hosted in the port number 3000 for the above given example and you can access it through any browser.
 3.	You can also host the website in different servers by hosting through the IP address of the server the code is running in. Make sure to connect both the servers to the same network connection. 
 
-    Example: 127.0.0.1:3000/
+        Example: 127.0.0.1:3000/
 
 
   Here we go, your website is ready to use.
