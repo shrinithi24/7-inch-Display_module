@@ -16,7 +16,7 @@
           
           Power cord to Pi
           
-### Code for the Web app   
+### Explanation of website   
    Given below is a step by step process to create a dynamic website for displaying the top scorers in a leader board via data mined from google sheets and running an in host server.
 ## HOME PAGE:
   ![alt-text](https://github.com/shrinithi24/7-inch-Display_module/blob/master/1.PNG?raw=true)
